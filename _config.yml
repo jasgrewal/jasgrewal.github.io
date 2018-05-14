@@ -3,8 +3,8 @@
 # Site wide configuration
 ####################################
 #
-title: Leonids
-email: zourenyuan@gmail.com
+title: jgrewal
+email: jgrewal@bcgsc.ca
 description: A simple and awesome blog theme powered by jekyll.
 url: https://renyuanz.github.io/leonids # the base hostname & protocol for your site
 keywords: ["Programming", "PHP", "Ruby"]
@@ -14,7 +14,7 @@ keywords: ["Programming", "PHP", "Ruby"]
 # Jekyll configuration
 ####################################
 #
-timezone:          Europe/Paris
+timezone:          Canada/Pacific
 markdown:          kramdown
 highlighter:       rouge
 excerpt_separator: <!--more-->
@@ -33,13 +33,12 @@ kramdown:
 ####################################
 #
 owner:
-  name: Leonids
+  name: Jasleen Grewal
   avatar: leonids-logo.png
-  job: "PHP & Ruby Developer"
-  bio: "A backend developer who loves design awesome things. Working for RendezvousCheznous atm in Marseille, France."
-  email: zourenyuan@gmail.com
-  disqus-shortname: renyuanzblog
-  twitter: renyuan814 #username
+  job: "PhD Candidate (Bioinformatics) @UBC"
+  bio: "Little brown girl prone to getting into arguments on sunny days. Currently working on my PhD in beautiful British Columbia, Canada."
+  email: grewalj23@gmail.com
+  twitter: jasleen_grewal #username
   facebook: #username
   google:
     plus: #username
@@ -48,9 +47,9 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
-  github: renyuanz #username
+  github: jasgrewal #username
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: renyuan-zou-69b7038a #username
+  linkedin:  #username
   xing: #username
   instagram: #username
   lastfm: #username
