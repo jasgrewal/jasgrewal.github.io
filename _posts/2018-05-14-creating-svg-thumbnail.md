@@ -8,6 +8,8 @@ comments: true
 Ok so the SVG based thumbnail creation wasn't terribly challenging. All I had to do was initialize an SVG file in the img/ folder for this project, and point to the file in the `_config.yml` file.  
 The tricky part, I guess, is documenting what I did.   
 
+<!--more-->
+
 Here's the shitty little SVG code chunk I started out with, just to get my bearings.  
 {% highlight svg %}
 {% raw %}
