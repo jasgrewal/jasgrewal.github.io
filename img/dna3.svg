@@ -10,7 +10,7 @@
       <text style="fill:#fff;font-family:sans;text-anchor:middle;font-size:16px;" x="8" y="62">A</text>
     </g>
     <g class="base" id="a2">
-      <path fill="#8D80DA" d="m0 8 h16 v24 l-8 8 -8 -8z"/>
+      <path fill="#1D80DA" d="m0 8 h16 v24 l-8 8 -8 -8z"/>
       <text style="fill:#fff;font-family:sans;text-anchor:middle;font-size:16px;" x="8" y="24">A</text>
     </g>
     <g class="base" id="t">
