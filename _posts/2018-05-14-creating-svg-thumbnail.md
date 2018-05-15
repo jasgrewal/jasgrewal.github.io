@@ -2,6 +2,7 @@
 layout: post
 title: Getting started with a little bit of SVG  
 categories: [code]
+date: 2018-05-14 17:07:19
 comments: true
 ---
 

@@ -3,6 +3,7 @@ layout: post
 title: Just setting up house  
 excerpt: "Dear Diary, I have finally caught up with the 21st century and abandoned your weak paper flesh for something more enduring (hopefully). God bless Jekyll and Github."
 categories: [setup]
+date: 2018-05-14 13:07:19
 modified: {{ page.last-modified-date | date: '%B %d, %Y' }}
 #modified: 2018-05-14
 comments: true
