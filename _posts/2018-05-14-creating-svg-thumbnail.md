@@ -49,3 +49,6 @@ C: #F3A0A9
 
 Since I had 4 bases and I didn't want to excessively crowd the colors, I decided to use a different hue of A's color for G, and C's to T's, to reflect the most common event of cytosine deamination (whereby C loses an amino group to form uracil, U). As I keep on forgetting, this will eventually turn a C-G ds-bond into a T-A ds-bond in one mature daughter DNA after a round of replication.  
 
+#### But it wasn't updating?  
+So I made these changes to the color in the .svg, but while I could see the changed image locally, it wasn't reflecting in the main website. I deleted the `._dna.svg` corresponding to the `dna.svg` file and pushed the changes again. That still did not work :/  
+ 
