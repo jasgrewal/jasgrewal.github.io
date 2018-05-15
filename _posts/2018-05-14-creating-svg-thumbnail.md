@@ -34,7 +34,7 @@ Trying to build up on this directly, I came to the realisation that it will take
 
 ## Picking a template SVG  
 ...the lazy CS student awakens....   
-So then I figured it might be cool to start by editing previously generated SVG images - how about DNA? I used [this neat online tool](http://petercollingridge.appspot.com/draw-dna) to generate a rendering of ATGC, and downloaded the SVG in the /img folder. Note I had to modify the dimensions of the generated SVG so the viewing window was the exact size as the desired graphics, and that the relative coordinates of the image were relative to (0,0). This made it slightly easier to co-locate the avatar versus the rest of the Sidebar viewing pane.    
+So then I figured it might be cool to start by editing previously generated SVG images - how about DNA? I used [this neat online tool](http://petercollingridge.appspot.com/draw-dna) to generate a rendering of ATGC, and saved the SVG to the /img folder. Note I had to modify the dimensions of the generated SVG so the viewing window was the exact size as the desired graphics, and that the relative coordinates of the image were relative to (0,0). This made it slightly easier to co-locate the avatar versus the rest of the Sidebar viewing pane.    
 
 ### Matching the colour palette  
 In the initial version of the DNA, the color palette for the A, T, C, and G's was defined thus:  
