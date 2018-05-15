@@ -30,7 +30,7 @@ Here's the shitty little SVG code chunk I started out with, just to get my beari
 {% endraw %}}
 {% endhighlight %}
 
-Trying to edit this directly in the SVG code, I eventually realised it will take me more time to build a fancy avatar than the time it took me to set up the website.    
+Trying to build up on this directly, I came to the realisation that it will take me aeons to build a fancy avatar.  
 
 ## Picking a template SVG  
 ...the lazy CS student awakens....   
