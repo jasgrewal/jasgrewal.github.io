@@ -1,11 +1,12 @@
 # skills section data
-label: EQ
-id : emo
-aspects: Motivation, Laziness, Work-Life Balance, Happiness
-percentage: 100, 20, 60, 100
+#label: EQ
+#id : emo
+#aspects: Motivation, Laziness, Work-Life Balance, Happiness
+#percentage: 100, 20, 60, 100
 
 label: Ability
 id : cs
-aspects: Python, R, Perl, Theano, Tensorflow/Keras, HTML/CSS
-percentage: 100, 100, 60, 40, 70, 20
+aspects: Python, R, Perl, Theano, Tensorflow/Keras, HTML/CSS, C++
+percentage: 100, 100, 60, 40, 70, 20, 45
+
 
