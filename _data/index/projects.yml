@@ -1,3 +1,5 @@
+- name: Circulating tumour DNA detection using exome sequencing  
+  descr: "Exome sequencing gives us 1% of the total genome. Circulating tumour DNA (ct-DNA) in turn, can comprise <1% of total DNA found in the bloodstream. Can we use exome sequencing to detect ct-DNA in patients where we have the genomic profile of the actual tumour for context? \n This was my main research question in Dr. Ryan Morin's lab at SFU"
 - name: leonids
   descr: "Bacon ipsum dolor sit amet doner meatball jowl short ribs, chicken prosciutto salami frankfurter. Pig drumstick turducken short ribs, brisket meatloaf ham hock shankle andouille corned beef strip steak. Venison ham bresaola strip steak. Pork belly ribeye prosciutto t-bone."
   image: pong.png
