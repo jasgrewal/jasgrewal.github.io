@@ -1,8 +1,8 @@
 # skills section data
-#label: EQ
-#id : emo
-#aspects: Motivation, Laziness, Work-Life Balance, Happiness
-#percentage: 100, 20, 60, 100
+label: EQ
+id : emo
+aspects: Motivation, Laziness, Work-Life Balance, Happiness
+percentage: 100, 20, 60, 100
 
 label: Ability
 id : cs
