@@ -38,14 +38,14 @@
       <text style="fill:#fff;font-family:sans;text-anchor:middle;font-size:16px;" x="8" y="24">C</text>
     </g>
   </def>
-  <use x="4" y="20" xlink:href="#a2"/>
-  <use x="4" y="20" xlink:href="#t"/>
-  <use x="24" y="20" xlink:href="#t2"/>
-  <use x="24" y="20" xlink:href="#a"/>
-  <use x="44" y="20" xlink:href="#g2"/>
-  <use x="44" y="20" xlink:href="#c"/>
-  <use x="64" y="20" xlink:href="#c2"/>
-  <use x="64" y="20" xlink:href="#g"/>
-  <rect x="0" y="20" width="84" height="8"/>
-  <rect x="0" y="86" width="84" height="8"/>
+  <use x="4" y="200" xlink:href="#a2"/>
+  <use x="4" y="200" xlink:href="#t"/>
+  <use x="24" y="200" xlink:href="#t2"/>
+  <use x="24" y="200" xlink:href="#a"/>
+  <use x="44" y="200" xlink:href="#g2"/>
+  <use x="44" y="200" xlink:href="#c"/>
+  <use x="64" y="200" xlink:href="#c2"/>
+  <use x="64" y="200" xlink:href="#g"/>
+  <rect x="0" y="200" width="840" height="80"/>
+  <rect x="0" y="860" width="840" height="80"/>
 </svg>
