@@ -6,7 +6,8 @@ date: 2018-05-14 17:07:19
 comments: true
 ---
 
-Ok so the SVG based thumbnail creation wasn't terribly challenging. All I had to do was initialize an SVG file in the img/ folder for this project, and point the 'avatar' field to the file in the `_config.yml` file.  
+Ok so the SVG based thumbnail creation wasn't terribly challenging. All I had to do was initialize an SVG file in the img/ folder for this project, and point the 'avatar' field to the image name, in the `_config.yml`.  
+
 The tricky part, I guess, is documenting what I did.   
 
 <!--more-->
