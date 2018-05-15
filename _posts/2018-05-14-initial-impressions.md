@@ -3,7 +3,7 @@ layout: post
 title: Initial Impressions  
 excerpt: "I thought it will take forever to get set up with a website using purely GitHub functionality, but it ain't half as bad as I thought! Only thing that I'm probably messing up right now is the slight lag in updating the main website once I push my changes. "
 categories: [thoughts]
-modified: 2018-05-17
+modified: {{ page.last-modified-date | date: '%B %d, %Y' }}
 comments: true
 ---
 
