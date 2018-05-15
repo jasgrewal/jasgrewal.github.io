@@ -38,11 +38,10 @@
       <text style="fill:#fff;font-family:sans;text-anchor:middle;font-size:16px;" x="8" y="24">C</text>
     </g>
   </def>
-  <use x="12" y="14" xlink:href="#t2"/>
-  <use x="32" y="14" xlink:href="#a"/>
-  <use x="52" y="14" xlink:href="#c2"/>
-  <use x="72" y="14" xlink:href="#g"/>
-  
+  <use x="12" y="14" xlink:href="#a2"/>
+  <use x="12" y="14" xlink:href="#t"/>
+  <use x="52" y="14" xlink:href="#g2"/>
+  <use x="52" y="14" xlink:href="#c"/>
 <!--  <rect x="0" y="14" width="84" height="8"/>
   <rect x="0" y="78" width="84" height="8"/>
 -->
