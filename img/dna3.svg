@@ -40,8 +40,8 @@
   </def>
   <use x="12" y="14" xlink:href="#t2"/>
   <use x="32" y="14" xlink:href="#a"/>
-  <use x="52" y="14" xlink:href="#c2"/>
-  <use x="72" y="14" xlink:href="#g"/>
+  <use x="52" y="14" xlink:href="#g"/>
+  <use x="72" y="14" xlink:href="#c2"/>
   
 <!--  <rect x="0" y="14" width="84" height="8"/>
   <rect x="0" y="78" width="84" height="8"/>
