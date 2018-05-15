@@ -27,6 +27,8 @@ kramdown:
   toc_levels: 1..6
   enable_coderay: false
 
+gems:
+  - jekyll-last-modified-at
 #
 ###################################
 # Site Owner configuration
