@@ -8,7 +8,7 @@ email: jgrewal@bcgsc.ca
 description: A simple and awesome blog theme powered by jekyll.
 url: https://jasgrewal.github.io # the base hostname & protocol for your site
 keywords: ["Programming", "Python", "Jeykyll"]
-
+google_analytics: UA-119233913-1
 #
 ###################################
 # Jekyll configuration
@@ -44,7 +44,7 @@ owner:
   facebook: #username
   google:
     plus: #username
-    analytics: UA-62251910-2
+    analytics: UA-119233913-1
     verify:
     ad-client:
     ad-slot:
