@@ -38,10 +38,10 @@ So then I figured it might be cool to start by editing previously generated SVG 
 
 ### Matching the colour palette  
 In the initial version of the DNA, the color palette for the A, T, C, and G's was defined thus:  
-A: c0504d  
-T: f79646  
-G: 4bacc6  
-C: 9bbb59  
+A: #c0504d  
+T: #f79646  
+G: #4bacc6  
+C: #9bbb59  
 
 I've always been a fan of the purple and gold palette, and the pink in this Jekyll template complements both these colours. Therefore I wanted to maintain the same color tones in the avatar. Conveniently, I have this nice [Chrome plugin that picks up the colours in a given page](https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp?hl=en) and copies the HEX code to your clipboard. So with a few extra clicks with ColorZilla, I had the following color palette:  
 A: #8D80DA  
