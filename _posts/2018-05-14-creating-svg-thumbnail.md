@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Getting started with a little bit of SVG  
-categories: [code]
+categories: [code, SVG, Chrome]
 date: 2018-05-14 17:07:19
 comments: true
 ---
@@ -33,4 +33,18 @@ Trying to edit this directly in the SVG code, I eventually realised it will take
 ...the lazy CS student awakens....
 So then I figured it might be cool to start by editing previously generated SVG images - [how about DNA?](http://petercollingridge.appspot.com/draw-dna). I used this website to generate a rendering of ATGC, and downloaded the SVG in the /img folder. Note I had to modify the dimensions of the generated SVG so the viewing window was the exact size as the desired graphics, and that the relative coordinates of the image were relative to (0,0). This made it slightly easier to co-locate the avatar versus the rest of the Sidebar viewing pane.  
 
+### Matching the colour palette  
+In the initial version of the DNA, the color palette for the A, T, C, and G's was defined thus:  
+A: 
+T: f79646
+G: 4bacc6
+C: 9bbb59
+
+I've always been a fan of the purple and gold palette, and the pink in this Jekyll template complements both these colours. Therefore I wanted to maintain the same color tones in the avatar. Conveniently, I have this nice [plugin that picks up the colours in a given page](https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp?hl=en) and copies the HEX code to your clipboard. So with a few extra clicks with ColorZilla, I had the following color palette:  
+A: #8D80DA
+T: #c28087
+G: #7066ae
+C: #F3A0A9
+
+Since I had 4 bases and I didn't want to excessively crowd the colors, I decided to use a different hue of A's color for G, and C's to T's, to reflect the most common event of cytosine deamination (whereby C loses an amino group to form uracil, U). As I keep on forgetting, this will eventually turn a C-G ds-bond into a T-A ds-bond in one mature daughter DNA after a round of replication.  
 
