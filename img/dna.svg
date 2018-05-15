@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="700" height="300">
+  <style>
+    rect {
+    	fill: #aaa;
+    }
+  </style>
+  <def>
+    <g class="base" id="a">
+      <path fill="#c0504d" d="m0 66 h16 v-24 l-8 -8 -8 8z"/>
+      <text style="fill:#fff;font-family:sans;text-anchor:middle;font-size:16px;" x="8" y="62">A</text>
+    </g>
+    <g class="base" id="a2">
+      <path fill="#c0504d" d="m0 8 h16 v24 l-8 8 -8 -8z"/>
+      <text style="fill:#fff;font-family:sans;text-anchor:middle;font-size:16px;" x="8" y="24">A</text>
+    </g>
+    <g class="base" id="t">
+      <path fill="#f79646" d="m0 66 h16 v-32 l-8 8 -8 -8z"/>
+      <text style="fill:#fff;font-family:sans;text-anchor:middle;font-size:16px;" x="8" y="62">T</text>
+    </g>
+    <g class="base" id="t2">
+      <path fill="#f79646" d="m0 8 h16 v32 l-8 -8 -8 8z"/>
+      <text style="fill:#fff;font-family:sans;text-anchor:middle;font-size:16px;" x="8" y="24">T</text>
+    </g>
+    <g class="base" id="g">
+      <path fill="#4bacc6" d="m0 66 h16 v-16 l-16 -16z"/>
+      <text style="fill:#fff;font-family:sans;text-anchor:middle;font-size:16px;" x="8" y="62">G</text>
+    </g>
+    <g class="base" id="g2">
+      <path fill="#4bacc6" d="m0 8 h16 v32 l-16 -16z"/>
+      <text style="fill:#fff;font-family:sans;text-anchor:middle;font-size:16px;" x="8" y="24">G</text>
+    </g>
+    <g class="base" id="c">
+      <path fill="#9bbb59" d="m0 66 h16 v-24 l-16 -16z"/>
+      <text style="fill:#fff;font-family:sans;text-anchor:middle;font-size:16px;" x="8" y="62">C</text>
+    </g>
+    <g class="base" id="c2">
+      <path fill="#9bbb59" d="m0 8 h16 v40 l-16 -16z"/>
+      <text style="fill:#fff;font-family:sans;text-anchor:middle;font-size:16px;" x="8" y="24">C</text>
+    </g>
+  </def>
+  <use x="4" y="20" xlink:href="#a2"/>
+  <use x="4" y="20" xlink:href="#t"/>
+  <use x="24" y="20" xlink:href="#t2"/>
+  <use x="24" y="20" xlink:href="#a"/>
+  <use x="44" y="20" xlink:href="#g2"/>
+  <use x="44" y="20" xlink:href="#c"/>
+  <use x="64" y="20" xlink:href="#c2"/>
+  <use x="64" y="20" xlink:href="#g"/>
+  <rect x="0" y="20" width="84" height="8"/>
+  <rect x="0" y="86" width="84" height="8"/>
+</svg>
