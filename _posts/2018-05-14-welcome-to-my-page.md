@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Just setting up house  
-excerpt: "I finally found a theme I liked! Read more by clicking on the title for this post, yeah?"
+excerpt: "Dear Diary, I have finally caught up with the 21st century and abandoned your weak paper flesh for something more enduring (hopefully). God bless Jekyll and Github."
 categories: [setup]
 modified: 2018-05-14
 comments: true
