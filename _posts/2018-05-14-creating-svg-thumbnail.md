@@ -57,5 +57,6 @@ Eventually it took me half an hour of tinkering around to realise that I just ne
 The last little bit was to modify the DNA strands to make them less run-of-the-mill base pairs and be a bit more intellectually offensive (ha). So I twiddled around with the relative coordinates and order, only showed 1 strand at a given position for the avatar image. In the favicon I chose to combine the complementary bases at the same coordinate instead.  
 
 But hooo boy, the favicons. I didn't realise they'll be so troublesome to modify. There is a mac command to convert the svg to a png, `qlmanage`, which is a hack-ish route but I'll take it.  
-I then used a shady online service to get the `*.ico` version of this file, and ultimately pushed changes to master and prayed for the best.  
+I then used a shady online service to get the `*.ico` version of this file, pointed to the right named files in `_includes/head.html` and ultimately pushed changes to master and prayed for the best.  
+Still need to support transparency in the conversion from SVG to PNG, but that'll be a minor fix.  
 
