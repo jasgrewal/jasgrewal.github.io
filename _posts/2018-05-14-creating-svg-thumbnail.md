@@ -41,7 +41,7 @@ T: f79646
 G: 4bacc6
 C: 9bbb59
 
-I've always been a fan of the purple and gold palette, and the pink in this Jekyll template complements both these colours. Therefore I wanted to maintain the same color tones in the avatar. Conveniently, I have this nice [plugin that picks up the colours in a given page](https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp?hl=en) and copies the HEX code to your clipboard. So with a few extra clicks with ColorZilla, I had the following color palette:  
+I've always been a fan of the purple and gold palette, and the pink in this Jekyll template complements both these colours. Therefore I wanted to maintain the same color tones in the avatar. Conveniently, I have this nice [Chrome plugin that picks up the colours in a given page](https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp?hl=en) and copies the HEX code to your clipboard. So with a few extra clicks with ColorZilla, I had the following color palette:  
 A: #8D80DA
 T: #c28087
 G: #7066ae
@@ -51,4 +51,9 @@ Since I had 4 bases and I didn't want to excessively crowd the colors, I decided
 
 #### But it wasn't updating?  
 So I made these changes to the color in the .svg, but while I could see the changed image locally, it wasn't reflecting in the main website. I deleted the `._dna.svg` corresponding to the `dna.svg` file and pushed the changes again. That still did not work :/  
- 
+Eventually it took me half an hour of tinkering around to realise that I just needed to clear my Chrome cache / open the link in a new window. I guess Chrome was being lazy and not keeping tabs on updated links? I have no idea as I'm not a web dev person.  
+
+### Having fun with the alignments  
+The last little bit was to modify the DNA strands to make them less run-of-the-mill base pairs and be a bit more intellectually offensive (ha). So I twiddled around with the relative coordinates and order, only showed 1 strand at a given position for the avatar image. In the favicon I chose to combine the complementary bases at the same coordinate instead.  
+
+
