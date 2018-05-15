@@ -46,6 +46,7 @@
   <use x="44" y="14" xlink:href="#c"/>
   <use x="64" y="14" xlink:href="#c2"/>
   <use x="64" y="14" xlink:href="#g"/>
-  <rect x="0" y="14" width="84" height="8"/>
+<!--  <rect x="0" y="14" width="84" height="8"/>
   <rect x="0" y="78" width="84" height="8"/>
+-->
 </svg>

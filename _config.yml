@@ -3,7 +3,7 @@
 # Site wide configuration
 ####################################
 #
-title: Jasleen's E-nook
+title: Jasleen's e-nook
 email: jgrewal@bcgsc.ca
 description: A simple and awesome blog theme powered by jekyll.
 url: https://jasgrewal.github.io # the base hostname & protocol for your site
