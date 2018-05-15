@@ -2,8 +2,8 @@
 layout: post
 title: Initial Impressions  
 excerpt: "I thought it will take forever to get set up with a website using purely GitHub functionality, but it ain't half as bad as I thought! Only thing that I'm probably messing up right now is the slight lag in updating the main website once I push my changes. "
-categories: [setup]
-modified: 2018-05-14
+categories: [thoughts]
+modified: 2018-05-17
 comments: true
 ---
 
