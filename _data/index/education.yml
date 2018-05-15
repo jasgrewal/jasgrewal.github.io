@@ -1,8 +1,8 @@
-- name: Massachusets Instutite of Technology
-  link: http://web.mit.edu/
-  date: 2011 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
-  descr: <br> (expected graduation in 2019)
-
-- name: Harvard
-  link: http://www.harvard.edu/
-  date: 2007 - 2011
+- name: University of British Columbia
+  link: https://www.ubc.ca/
+  date: 2015 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
+  descr: <br> (expected graduation in 2021)
+- name: Simon Fraser Univeristy
+  link: https://www.sfu.ca/
+  date: 2011 - 2015
+  descr: Joint bachelors in Computing Science, Molecular Biology and Biochemistry
