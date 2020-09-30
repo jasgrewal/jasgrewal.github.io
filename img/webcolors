@@ -1,0 +1,331 @@
+Last login: Wed Sep 30 13:15:40 on ttys005
+wh%                                                                             ➜  ~ which jekyll
+jekyll not found
+➜  ~ ls ~.gem/ruby/2
+➜  ~ ls ~/.gem/ruby/2.6.0/gems/
+➜  ~ gem install --user-instal jekyll
+WARNING:  You don't have /Users/jgrewal/.gem/ruby/2.6.0/bin in your PATH,
+	  gem executables will not run.
+^CERROR:  Interrupted
+➜  ~ gem install --user-install jekyll
+WARNING:  You don't have /Users/jgrewal/.gem/ruby/2.6.0/bin in your PATH,
+	  gem executables will not run.
+Building native extensions. This could take a while...
+ERROR:  Error installing jekyll:
+	ERROR: Failed to build gem native extension.
+
+    current directory: /Users/jgrewal/.gem/ruby/2.6.0/gems/eventmachine-1.2.7/ext
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20200930-80833-9v3m4k.rb extconf.rb
+mkmf.rb can't find header files for ruby at /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/include/ruby.h
+
+You might have to install separate package for the ruby development
+environment, ruby-dev or ruby-devel for example.
+
+extconf failed, exit code 1
+
+Gem files will remain installed in /Users/jgrewal/.gem/ruby/2.6.0/gems/eventmachine-1.2.7 for inspection.
+Results logged to /Users/jgrewal/.gem/ruby/2.6.0/extensions/universal-darwin-19/2.6.0/eventmachine-1.2.7/gem_make.out
+➜  ~ echo $PATH
+/Users/sw/bin:/Users/sw/sbin:/Users/jgrewal/.pyenv/shims:/Users/jgrewal/perl5/bin:/Users/jgrewal/morin-pipeline/pipeline-factory/pipeline_factory:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/opt/X11/bin
+➜  ~ vim .bashrc 
+➜  ~ which ruby
+/usr/bin/ruby
+➜  ~ source .bash
+➜  ~ gem install --user-install jekyll
+➜  ~ /Users/jgrewal/.gem/ruby/2.6.0/bin
+➜  ~ echo $PATH 
+➜  ~ vim .bash_profile
+➜  ~ $HOME/.gem/ruby/2.6.0/bin 
+➜  bin echo $HOME/.gem/ruby/2.6.0/bin:
+/Users/jgrewal/.gem/ruby/2.6.0/bin:
+➜  bin echo $PATH
+/Users/sw/bin:/Users/sw/sbin:/Users/jgrewal/.pyenv/shims:/Users/jgrewal/perl5/bin:/Users/jgrewal/morin-pipeline/pipeline-factory/pipeline_factory:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/opt/X11/bin
+➜  bin source .bash_profile
+source: no such file or directory: .bash_profile
+➜  bin source /Users/jgrewal/.bash_profile
+➜  bin echo $PATH
+/Users/jgrewal/.gem/ruby/2.6.0/bin:/usr/local/opt/ruby/bin:/Users/jgrewal/anaconda/bin:/Library/Frameworks/Python.framework/Versions/3.4/bin:/Users/sw/bin:/Users/sw/sbin:/Users/jgrewal/.pyenv/shims:/Users/jgrewal/perl5/bin:/Users/jgrewal/morin-pipeline/pipeline-factory/pipeline_factory:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/opt/X11/bin
+➜  bin gem install --user-install jekyll
+Fetching addressable-2.7.0.gem
+Fetching em-websocket-0.5.2.gem
+Fetching colorator-1.1.0.gem
+Fetching i18n-1.8.5.gem
+Fetching public_suffix-4.0.6.gem
+Fetching eventmachine-1.2.7.gem
+Fetching concurrent-ruby-1.1.7.gem
+Fetching http_parser.rb-0.6.0.gem
+Fetching ffi-1.13.1.gem
+Fetching sassc-2.4.0.gem
+Fetching jekyll-sass-converter-2.1.0.gem
+Fetching rb-fsevent-0.10.4.gem
+Fetching rb-inotify-0.10.1.gem
+Fetching listen-3.2.1.gem
+Fetching jekyll-watch-2.2.1.gem
+Fetching kramdown-2.3.0.gem
+Fetching kramdown-parser-gfm-1.1.0.gem
+Fetching liquid-4.0.3.gem
+Fetching mercenary-0.4.0.gem
+Fetching forwardable-extended-2.6.0.gem
+Fetching pathutil-0.16.2.gem
+Fetching rouge-3.23.0.gem
+Fetching safe_yaml-1.0.5.gem
+Fetching unicode-display_width-1.7.0.gem
+Fetching terminal-table-1.8.0.gem
+Fetching jekyll-4.1.1.gem
+WARNING:  You don't have /Users/jgrewal/.gem/ruby/2.7.0/bin in your PATH,
+	  gem executables will not run.
+Successfully installed public_suffix-4.0.6
+Successfully installed addressable-2.7.0
+Successfully installed colorator-1.1.0
+Building native extensions. This could take a while...
+Successfully installed eventmachine-1.2.7
+Building native extensions. This could take a while...
+Successfully installed http_parser.rb-0.6.0
+Successfully installed em-websocket-0.5.2
+Successfully installed concurrent-ruby-1.1.7
+
+HEADS UP! i18n 1.1 changed fallbacks to exclude default locale.
+But that may break your application.
+
+If you are upgrading your Rails application from an older version of Rails:
+
+Please check your Rails app for 'config.i18n.fallbacks = true'.
+If you're using I18n (>= 1.1.0) and Rails (< 5.2.2), this should be
+'config.i18n.fallbacks = [I18n.default_locale]'.
+If not, fallbacks will be broken in your app by I18n 1.1.x.
+
+If you are starting a NEW Rails application, you can ignore this notice.
+
+For more info see:
+https://github.com/svenfuchs/i18n/releases/tag/v1.1.0
+
+Successfully installed i18n-1.8.5
+Building native extensions. This could take a while...
+Successfully installed ffi-1.13.1
+Building native extensions. This could take a while...
+Successfully installed sassc-2.4.0
+Successfully installed jekyll-sass-converter-2.1.0
+Successfully installed rb-fsevent-0.10.4
+Successfully installed rb-inotify-0.10.1
+Successfully installed listen-3.2.1
+Successfully installed jekyll-watch-2.2.1
+Successfully installed kramdown-2.3.0
+Successfully installed kramdown-parser-gfm-1.1.0
+Successfully installed liquid-4.0.3
+Successfully installed mercenary-0.4.0
+Successfully installed forwardable-extended-2.6.0
+Successfully installed pathutil-0.16.2
+Successfully installed rouge-3.23.0
+Successfully installed safe_yaml-1.0.5
+Successfully installed unicode-display_width-1.7.0
+Successfully installed terminal-table-1.8.0
+Successfully installed jekyll-4.1.1
+Parsing documentation for public_suffix-4.0.6
+Installing ri documentation for public_suffix-4.0.6
+Parsing documentation for addressable-2.7.0
+Installing ri documentation for addressable-2.7.0
+Parsing documentation for colorator-1.1.0
+Installing ri documentation for colorator-1.1.0
+Parsing documentation for eventmachine-1.2.7
+Installing ri documentation for eventmachine-1.2.7
+Parsing documentation for http_parser.rb-0.6.0
+unknown encoding name "chunked\r\n\r\n25" for ext/ruby_http_parser/vendor/http-parser-java/tools/parse_tests.rb, skipping
+Installing ri documentation for http_parser.rb-0.6.0
+Parsing documentation for em-websocket-0.5.2
+Installing ri documentation for em-websocket-0.5.2
+Parsing documentation for concurrent-ruby-1.1.7
+Installing ri documentation for concurrent-ruby-1.1.7
+Parsing documentation for i18n-1.8.5
+Installing ri documentation for i18n-1.8.5
+Parsing documentation for ffi-1.13.1
+Installing ri documentation for ffi-1.13.1
+Parsing documentation for sassc-2.4.0
+Installing ri documentation for sassc-2.4.0
+Parsing documentation for jekyll-sass-converter-2.1.0
+Installing ri documentation for jekyll-sass-converter-2.1.0
+Parsing documentation for rb-fsevent-0.10.4
+Installing ri documentation for rb-fsevent-0.10.4
+Parsing documentation for rb-inotify-0.10.1
+Installing ri documentation for rb-inotify-0.10.1
+Parsing documentation for listen-3.2.1
+Installing ri documentation for listen-3.2.1
+Parsing documentation for jekyll-watch-2.2.1
+Installing ri documentation for jekyll-watch-2.2.1
+Parsing documentation for kramdown-2.3.0
+Installing ri documentation for kramdown-2.3.0
+Parsing documentation for kramdown-parser-gfm-1.1.0
+Installing ri documentation for kramdown-parser-gfm-1.1.0
+Parsing documentation for liquid-4.0.3
+Installing ri documentation for liquid-4.0.3
+Parsing documentation for mercenary-0.4.0
+Installing ri documentation for mercenary-0.4.0
+Parsing documentation for forwardable-extended-2.6.0
+Installing ri documentation for forwardable-extended-2.6.0
+Parsing documentation for pathutil-0.16.2
+Installing ri documentation for pathutil-0.16.2
+Parsing documentation for rouge-3.23.0
+Installing ri documentation for rouge-3.23.0
+Parsing documentation for safe_yaml-1.0.5
+Installing ri documentation for safe_yaml-1.0.5
+Parsing documentation for unicode-display_width-1.7.0
+Installing ri documentation for unicode-display_width-1.7.0
+Parsing documentation for terminal-table-1.8.0
+Installing ri documentation for terminal-table-1.8.0
+Parsing documentation for jekyll-4.1.1
+Installing ri documentation for jekyll-4.1.1
+Done installing documentation for public_suffix, addressable, colorator, eventmachine, http_parser.rb, em-websocket, concurrent-ruby, i18n, ffi, sassc, jekyll-sass-converter, rb-fsevent, rb-inotify, listen, jekyll-watch, kramdown, kramdown-parser-gfm, liquid, mercenary, forwardable-extended, pathutil, rouge, safe_yaml, unicode-display_width, terminal-table, jekyll after 23 seconds
+26 gems installed
+➜  bin which jekyll
+jekyll not found
+➜  bin source /home/jgrewal/.bash_profile
+source: no such file or directory: /home/jgrewal/.bash_profile
+➜  bin source /Users/jgrewal/.bash_profile
+➜  bin which jekyll
+jekyll not found
+➜  bin echo $PATH
+/Users/jgrewal/.gem/ruby/2.6.0/bin:/usr/local/opt/ruby/bin:/Users/jgrewal/anaconda/bin:/Library/Frameworks/Python.framework/Versions/3.4/bin:/Users/jgrewal/.gem/ruby/2.6.0/bin:/usr/local/opt/ruby/bin:/Users/jgrewal/anaconda/bin:/Library/Frameworks/Python.framework/Versions/3.4/bin:/Users/sw/bin:/Users/sw/sbin:/Users/jgrewal/.pyenv/shims:/Users/jgrewal/perl5/bin:/Users/jgrewal/morin-pipeline/pipeline-factory/pipeline_factory:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/opt/X11/bin
+➜  bin ls /Users/jgrewal/.gem/ruby/2.7.0/gems/jekyll-
+➜  bin vim /Users/jgrewal/.bash_profile
+➜  bin vim /Users/jgrewal/.bash_profile
+➜  bin source /Users/jgrewal/.bash_profile
+➜  bin which jekyll
+/Users/jgrewal/.gem/ruby/2.7.0/bin/jekyll
+➜  bin cd ../
+➜  2.6.0 cd ../../
+➜  .gem ls
+ruby  specs
+➜  .gem cd ../
+➜  ~ ls
+1aon.pdb
+1tgh.pdb
+Applications
+Box Sync
+CCPtest
+Creative Cloud Files
+Desktop
+Documents
+Downloads
+Dropbox
+Library
+MacPorts-2.3.3
+Movies
+Music
+POGPAAD-POG1132_allpathways-allpreds.txt
+POGPAAD-POG1132_cancerpathways-allpreds.txt
+POGPAAD-POG1135_cancerpathways-allpreds.txt
+Pictures
+Public
+PycharmProjects
+Rplot.tiff
+Rplot01.tiff
+action.php
+aggr_pathways_scope.R
+alloy-editor
+allpogs_mainfig.pdf
+anaconda
+android
+backup_nmf_gsadata.R
+capu_survey_analysis.R
+collate-data.py
+cost_over_epochs.png
+curated_paths_genes_zeroonematrix.txt
+current_gene_drug_pathway.hg19.tsv
+d3pathways.js
+dwhelper
+eccb_poster_version1.pptx
+get_gene_pathway_matrix.py
+grant_cases.R
+igv
+makemeorun
+matched_ml_JGreview_21012019.xls
+media
+merged_covars.txt
+morin-pipeline
+mygits
+myports.txt
+node_modules
+nonconsensus_cases_chordDiagram.pdf
+nonconsensus_cases_chordDiagram.png
+notes.txt
+notes_theo.md
+nvidia-call_05062019.docx
+overview_vertical.pdf
+overview_vertical_v2.pdf
+package-lock.json
+perl5
+pickle_reader.py
+pog_mainfig_basile.R
+pog_tpm_minmax_14102018.pdf
+pog_tpm_var10_14102018.pdf
+pog_tpm_var1_14102018.pdf
+portal_data_joined.csv
+rosalind_2017
+seminar8
+shinyserve.R
+software
+srctemp
+summaryplot_ordered_by_pathaug.pdf
+tcga.py
+temp2
+testproj
+thesisoutline.tex
+tissuetype_vs_changeOfDiagnosis_with_InformationType.png
+tmp.sh
+tmp_results_parse.R
+vis_pog_idea.R
+➜  ~ cd mygits/jasgrewal.github.io 
+➜  jasgrewal.github.io git:(master) ✗ ls
+LICENSE.txt     _includes       _site           favicon.png     fonts           tutorials.html
+README.md       _layouts        archive.html    favicon.svg     img
+_config.yml     _plugins        categories      favicon_dna.ico index.html
+_data           _posts          css             favicon_dna.png js
+_drafts         _sass           favicon.ico     feed.xml        resume.html
+➜  jasgrewal.github.io git:(master) ✗ cd _includes 
+➜  _includes git:(master) ✗ ls
+analytics.html    footer.html       js.html           read_time.html    sidebar.html
+disqus.html       head.html         nav.html          sections          social-links.html
+➜  _includes git:(master) ✗ cd sections 
+➜  sections git:(master) ✗ ls
+about.html     career.html    education.html projects.html  skills.html
+➜  sections git:(master) ✗ vim projects.html 
+➜  sections git:(master) ✗ ls
+about.html     career.html    education.html projects.html  skills.html
+➜  sections git:(master) ✗ ls ..
+analytics.html    footer.html       js.html           read_time.html    sidebar.html
+disqus.html       head.html         nav.html          sections          social-links.html
+➜  sections git:(master) ✗ ls ../../
+LICENSE.txt     _includes       _site           favicon.png     fonts           tutorials.html
+README.md       _layouts        archive.html    favicon.svg     img
+_config.yml     _plugins        categories      favicon_dna.ico index.html
+_data           _posts          css             favicon_dna.png js
+_drafts         _sass           favicon.ico     feed.xml        resume.html
+➜  sections git:(master) ✗ ls ../../css
+font-awesome.min.css main.scss
+➜  sections git:(master) ✗ vim ../../css/main.scss 
+
+@import "pages/layout";
+@import "pages/tags";
+@import "pages/archive";
+@import "pages/post";
+
+// Custom appearance mods - JG
+details {
+        font: 16px "Open Sans", Calibri, sans-serif;
+}
+
+details > summary {
+  padding: 2px 6px;
+  width: 10em;
+  background-color: #F6ECF2;
+  border: none;
+  cursor: pointer;
+}
+details > p {
+  border-radius: 0 0 10px 10px;
+  background-color: #F6ECF2;
+  padding: 2px 6px;
+  margin: 4px 4px 4px 4px;
+}
+
+
+"../../css/main.scss" 48L, 878C written

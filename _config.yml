@@ -4,10 +4,10 @@
 ####################################
 #
 title: Jasleen's e-nook
-email: jgrewal@bcgsc.ca
+email: grewalj23@gmail.com
 description: A simple and awesome blog theme powered by jekyll.
 url: https://jasgrewal.github.io # the base hostname & protocol for your site
-keywords: ["Programming", "Python", "Jeykyll"]
+keywords: ["Programming", "Python", "Jeykyll", "Jasleen Grewal", "Jasleen Kaur Grewal", "Jasleen cancer research", "UBC"]
 google_analytics: UA-119233913-1
 #
 ###################################
@@ -38,7 +38,7 @@ owner:
   name: Jasleen Grewal
   avatar: dna3.svg
   job: "PhD Candidate (Bioinformatics) @UBC"
-  bio: "Butter-fingered millennial prone to getting into arguments on sunny days. Currently working on my PhD in beautiful British Columbia, Canada."
+  bio: "Butter-fingered millennial prone to getting into arguments on sunny days. Currently living out this pandemic in beautiful British Columbia, Canada. <br> Looking for consulting gigs and full-time roles."
   descr: "If you are here for Tutorials, please follow [link to repo](https://jasgrewal.github.io/common/)"
   email: grewalj23@gmail.com
   twitter: jasleen_grewal #username
