@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jasleen Grewal</title>
+    <description>A simple and awesome blog theme powered by jekyll.</description>
+    <link>https://jasgrewal.github.io/</link>
+    <atom:link href="https://jasgrewal.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 30 Sep 2020 16:49:25 -0700</pubDate>
+    <lastBuildDate>Wed, 30 Sep 2020 16:49:25 -0700</lastBuildDate>
+    <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>Getting started with a little bit of SVG</title>
+        <description>&lt;p&gt;Ok so the SVG based thumbnail creation wasn’t terribly challenging. All I had to do was initialize an SVG file in the img/ folder for this project, and point the ‘avatar’ field to the image name, in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;The tricky part, I guess, is documenting what I did.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Here’s the shitty little SVG code chunk I started out with, just to get my bearings.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-svg&quot; data-lang=&quot;svg&quot;&gt;&amp;lt;svg width=&quot;100%&quot; height=&quot;100%&quot; version=&quot;1.1&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&amp;gt;
+
+&amp;lt;defs&amp;gt;
+&amp;lt;linearGradient id=&quot;fill&quot; x1=&quot;0%&quot; y1=&quot;0%&quot; x2=&quot;0%&quot; y2=&quot;100%&quot;&amp;gt;
+&amp;lt;stop offset=&quot;0%&quot; style=&quot;stop-color:rgb(224,224,224);stop-opacity:1&quot;/&amp;gt;
+&amp;lt;stop offset=&quot;100%&quot; style=&quot;stop-color:rgb(153,153,153);stop-opacity:1&quot;/&amp;gt;
+&amp;lt;/linearGradient&amp;gt;
+&amp;lt;/defs&amp;gt;
+
+&amp;lt;path d=&quot;M 0 0 L 64 0 L 32 64 z&quot; stroke=&quot;colourname&quot; fill=&quot;url(#fill)&quot;/&amp;gt;
+
+&amp;lt;/svg&amp;gt;
+}&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Trying to build up on this directly, I came to the realisation that it will take me aeons to build a fancy avatar.&lt;/p&gt;
+
+&lt;h2 id=&quot;picking-a-template-svg&quot;&gt;Picking a template SVG&lt;/h2&gt;
+&lt;p&gt;…the lazy CS student awakens…. &lt;br /&gt;
+So then I figured it might be cool to start by editing previously generated SVG images - how about DNA? I used &lt;a href=&quot;http://petercollingridge.appspot.com/draw-dna&quot;&gt;this neat online tool&lt;/a&gt; to generate a rendering of ATGC, and saved the SVG to the /img folder. Note I had to modify the dimensions of the generated SVG so the viewing window was the exact size as the desired graphics, and that the relative coordinates of the image were relative to (0,0). This made it slightly easier to co-locate the avatar versus the rest of the Sidebar viewing pane.&lt;/p&gt;
+
+&lt;h3 id=&quot;matching-the-colour-palette&quot;&gt;Matching the colour palette&lt;/h3&gt;
+&lt;p&gt;In the initial version of the DNA, the color palette for the A, T, C, and G’s was defined thus:&lt;br /&gt;
+A: #c0504d&lt;br /&gt;
+T: #f79646&lt;br /&gt;
+G: #4bacc6&lt;br /&gt;
+C: #9bbb59&lt;/p&gt;
+
+&lt;p&gt;I’ve always been a fan of the purple and gold palette, and the pink in this Jekyll template complements both these colours. Therefore I wanted to maintain the same color tones in the avatar. Conveniently, I have this nice &lt;a href=&quot;https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp?hl=en&quot;&gt;Chrome plugin that picks up the colours in a given page&lt;/a&gt; and copies the HEX code to your clipboard. So with a few extra clicks with ColorZilla, I had the following color palette:&lt;br /&gt;
+A: #8D80DA&lt;br /&gt;
+T: #c28087&lt;br /&gt;
+G: #7066ae&lt;br /&gt;
+C: #F3A0A9&lt;/p&gt;
+
+&lt;p&gt;Since I had 4 bases and I didn’t want to excessively crowd the colors, I decided to use a different hue of A’s color for G, and C’s to T’s, to reflect the most common event of cytosine deamination (whereby C loses an amino group to form uracil, U). As I keep on forgetting, this will eventually turn a C-G ds-bond into a T-A ds-bond in one mature daughter DNA after a round of replication.&lt;/p&gt;
+
+&lt;h4 id=&quot;but-it-wasnt-updating&quot;&gt;But it wasn’t updating?&lt;/h4&gt;
+&lt;p&gt;So I made these changes to the color in the .svg, but while I could see the changed image locally, it wasn’t reflecting in the main website. I deleted the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;._dna.svg&lt;/code&gt; corresponding to the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dna.svg&lt;/code&gt; file and pushed the changes again. That still did not work :/  &lt;br /&gt;
+It took me half an hour of tinkering around to realise that I just needed to clear my Chrome cache / open the link in a new window. I guess Chrome was being lazy and not keeping tabs on updated links? I have no idea as I’m not a web dev person.&lt;/p&gt;
+
+&lt;h3 id=&quot;having-fun-with-the-alignments&quot;&gt;Having fun with the alignments&lt;/h3&gt;
+&lt;p&gt;The last little bit was to modify the DNA strands to make them less run-of-the-mill base pairs and be a bit more intellectually offensive (ha). So I twiddled around with the relative coordinates and order, only showed 1 strand at a given position for the avatar image. In the favicon I chose to combine the complementary bases at the same coordinate instead.&lt;/p&gt;
+
+&lt;h2 id=&quot;favicons&quot;&gt;Favicons&lt;/h2&gt;
+&lt;p&gt;But hooo boy, the favicons. I didn’t realise they’ll be so troublesome to modify. There is a mac command to convert the svg to a png, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;qlmanage&lt;/code&gt;, which is a hack-ish route but I’ll take it.&lt;br /&gt;
+I then used a shady online service to get the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;*.ico&lt;/code&gt; version of this file, pointed to the right named files in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_includes/head.html&lt;/code&gt; and ultimately pushed changes to master and prayed for the best.&lt;br /&gt;
+Still need to support transparency in the conversion from SVG to PNG, but that’ll be a minor fix.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 14 May 2018 10:07:19 -0700</pubDate>
+        <link>https://jasgrewal.github.io/articles/2018-05/creating-svg-thumbnail</link>
+        <guid isPermaLink="true">https://jasgrewal.github.io/articles/2018-05/creating-svg-thumbnail</guid>
+        
+        
+        <category>code</category>
+        
+        <category>SVG</category>
+        
+        <category>Chrome</category>
+        
+      </item>
+    
+      <item>
+        <title>Initial Impressions</title>
+        <description>&lt;p&gt;I thought it will take forever to get set up with a website using purely GitHub functionality, but it ain’t half as bad as I thought! Only thing that I’m probably messing up right now is the slight lag in updating the main website once I push my changes.&lt;br /&gt;
+The next bit in the plan is to update the graphics for this website solely using XML and SVG. Lately I’ve come to appreciate the power of SVG in image modifications a bit more, so hopefully this task will put my skills to test. And generally help me waste time while I wait for my models to be trained….. &lt;br /&gt;
+In the intervening 5 minutes or so since I ‘set up house’ and recorded my initial impressions, I have also tried to automate the time-stamping on these posts. I am pretty sure there should be something in the original build that should be able to automatically retrieve this but I can’t seem to identify where that code bit resides, and have hence resorted to shamelessly using &lt;a href=&quot;https://stackoverflow.com/questions/36758072/how-to-insert-the-last-updated-time-stamp-in-jekyll-page-at-build-time?utm_medium=organic&amp;amp;utm_source=google_rich_qa&amp;amp;utm_campaign=google_rich_qa&quot;&gt;stackoverflow&lt;/a&gt; to help me solve my problems.&lt;br /&gt;
+Does this work?&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 14 May 2018 09:07:19 -0700</pubDate>
+        <link>https://jasgrewal.github.io/articles/2018-05/initial-impressions</link>
+        <guid isPermaLink="true">https://jasgrewal.github.io/articles/2018-05/initial-impressions</guid>
+        
+        
+        <category>thoughts</category>
+        
+      </item>
+    
+      <item>
+        <title>Just setting up house</title>
+        <description>&lt;p&gt;Dear Diary, I have finally caught up with the 21st century and abandoned your weak paper flesh for something more enduring (hopefully). God bless Jekyll and Github.&lt;/p&gt;
+
+&lt;!--more--&gt;
+&lt;h2 id=&quot;i-finally-found-a-theme-i-liked&quot;&gt;I finally found a theme I liked!&lt;/h2&gt;
+&lt;p&gt;I have realised that the amount of time I spend prettifying tiny details is horrendous - but I have no shame. Take, for example, this website. I have tinkered around with atleast 5 other themes, ultimately settling on this beauty by &lt;a href=&quot;https://renyuanz.github.io/leonids/&quot;&gt;leonids&lt;/a&gt;.&lt;br /&gt;
+Hope to make this a regularly documented nook for my thoughts and documents. If you have stumbled here by mistake, hit that close button.&lt;br /&gt;
+First mistake though, accidentally initialized this document for 2017. Grrrr how the time flies, hello 2018.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 14 May 2018 06:07:19 -0700</pubDate>
+        <link>https://jasgrewal.github.io/articles/2018-05/welcome-to-my-page</link>
+        <guid isPermaLink="true">https://jasgrewal.github.io/articles/2018-05/welcome-to-my-page</guid>
+        
+        
+        <category>setup</category>
+        
+      </item>
+    
+  </channel>
+</rss>

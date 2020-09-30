@@ -1,0 +1,12 @@
+# skills section data
+label: EQ
+id : emo
+aspects: Motivation, Laziness, Work-Life Balance, Happiness
+percentage: 100, 20, 60, 100
+
+label: Ability
+id : cs
+aspects: Python, R, Perl, Theano, Lasagne, Keras, PyTorch, HTML/CSS, C++
+percentage: 80, 90, 60, 40, 65, 90, 30, 20, 45
+
+
