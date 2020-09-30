@@ -3,7 +3,7 @@
 # Site wide configuration
 ####################################
 #
-title: Jasleen's e-nook
+title: Jasleen Grewal
 email: grewalj23@gmail.com
 description: A simple and awesome blog theme powered by jekyll.
 url: https://jasgrewal.github.io # the base hostname & protocol for your site
@@ -37,8 +37,8 @@ gems:
 owner:
   name: Jasleen Grewal
   avatar: dna3.svg
-  job: "PhD Candidate (Bioinformatics) @UBC"
-  bio: "Butter-fingered millennial prone to getting into arguments on sunny days. Currently living out this pandemic in beautiful British Columbia, Canada. <br> Looking for consulting gigs and full-time roles."
+  job: "Bioinformatics researcher, PhD"
+  bio: "Butter-fingered millennial prone to getting into arguments on sunny days. Busy living out the pandemic in beautiful British Columbia, Canada. <br> <br> <b>Looking for</b> consulting gigs and full-time roles in translational research, precision oncology, or science education."
   descr: "If you are here for Tutorials, please follow [link to repo](https://jasgrewal.github.io/common/)"
   email: grewalj23@gmail.com
   twitter: jasleen_grewal #username

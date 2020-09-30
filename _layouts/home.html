@@ -1,0 +1,31 @@
+---
+layout: default
+---
+<div class="row">
+    <div class="col">
+        <div class="row">
+            <div class="col">
+                {% include sections/homeinfo.html %}        
+            </div>
+        </div>
+        
+
+	<div class='row'>
+	   <div class="col l7 offset-l0">
+	      <details>
+                 <summary>Work</summary>
+		 {% include sections/career.html %} 
+              </details>
+	   </div>
+	   <div class="col l7 offset-l0">
+              <p><br></p>
+              <details>
+                 <p></p>
+		 <summary>Education</summary>
+                 {% include sections/education.html %}  
+              </details>
+           </div> 
+        </div>	
+    </div>
+    <p><br><br></p>
+</div>
