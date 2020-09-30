@@ -3,10 +3,10 @@
   <channel>
     <title>Jasleen Grewal</title>
     <description>A simple and awesome blog theme powered by jekyll.</description>
-    <link>https://jasgrewal.github.io/</link>
-    <atom:link href="https://jasgrewal.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 30 Sep 2020 16:54:22 -0700</pubDate>
-    <lastBuildDate>Wed, 30 Sep 2020 16:54:22 -0700</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 30 Sep 2020 16:54:53 -0700</pubDate>
+    <lastBuildDate>Wed, 30 Sep 2020 16:54:53 -0700</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item>
@@ -68,8 +68,8 @@ Still need to support transparency in the conversion from SVG to PNG, but thatâ€
 
 </description>
         <pubDate>Mon, 14 May 2018 10:07:19 -0700</pubDate>
-        <link>https://jasgrewal.github.io/articles/2018-05/creating-svg-thumbnail</link>
-        <guid isPermaLink="true">https://jasgrewal.github.io/articles/2018-05/creating-svg-thumbnail</guid>
+        <link>http://localhost:4000/articles/2018-05/creating-svg-thumbnail</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/2018-05/creating-svg-thumbnail</guid>
         
         
         <category>code</category>
@@ -89,8 +89,8 @@ Does this work?&lt;/p&gt;
 
 </description>
         <pubDate>Mon, 14 May 2018 09:07:19 -0700</pubDate>
-        <link>https://jasgrewal.github.io/articles/2018-05/initial-impressions</link>
-        <guid isPermaLink="true">https://jasgrewal.github.io/articles/2018-05/initial-impressions</guid>
+        <link>http://localhost:4000/articles/2018-05/initial-impressions</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/2018-05/initial-impressions</guid>
         
         
         <category>thoughts</category>
@@ -109,8 +109,8 @@ First mistake though, accidentally initialized this document for 2017. Grrrr how
 
 </description>
         <pubDate>Mon, 14 May 2018 06:07:19 -0700</pubDate>
-        <link>https://jasgrewal.github.io/articles/2018-05/welcome-to-my-page</link>
-        <guid isPermaLink="true">https://jasgrewal.github.io/articles/2018-05/welcome-to-my-page</guid>
+        <link>http://localhost:4000/articles/2018-05/welcome-to-my-page</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/2018-05/welcome-to-my-page</guid>
         
         
         <category>setup</category>
