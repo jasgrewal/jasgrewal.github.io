@@ -647,7 +647,7 @@ pre code span { word-break: break-all; }
 .highlight .il { color: #666666; }
 
 /* LAYOUT CSS */
-.cover { background-color: #f1faee; position: fixed; text-align: center; width: 100%; min-height: 400px; padding: 30px 15px 20px; z-index: 1; }
+.cover { background-color: #f7fcf6; position: fixed; text-align: center; width: 100%; min-height: 400px; padding: 30px 15px 20px; z-index: 1; }
 
 @media only screen and (min-width: 600px) { .cover { background-position: center; padding: 30px; } }
 

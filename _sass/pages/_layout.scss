@@ -1,6 +1,6 @@
 /* LAYOUT CSS */
 .cover {
-  background-color: $background-color;
+  background-color: lighten($background-color, 2%);
   position: fixed;
   text-align: center;
   width: 100%;
