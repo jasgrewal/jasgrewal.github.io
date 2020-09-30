@@ -1,6 +1,9 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
-- name: Where was this?
-  link: Perhaps I have results  
-  date: Sometime in the past - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
-  job: Surely something interesting  
+- name: Amazon (Health CVML) 
+  date: 07/20 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
+  job: Applied Scientist intern
+- name: Geneskool by Genome BC
+  date: 01/19 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
+  job: Outreach coordinator  
+
