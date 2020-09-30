@@ -27,44 +27,47 @@
 @import "pages/post";
 
 // Custom appearance mods - JG
+$dropbar:          #fbfbfa;
+$dropbarback:      #fbfbfa;
+
 details {
 	font: 16px "Open Sans", Calibri, sans-serif;
 }
 
 details > summary {
   padding: 6px 6px;
-  background-color: #fbf7f9;
+  background-color: $dropbar; //#fbf7f9;
   border: none;
   cursor: pointer;
 }
 details > p {
   border-radius: 0 0 20px 20px;
-  background-color: #F6ECF2;
+  background-color: darken($dropbarback, 2%); // #F6ECF2;
   padding: 2px 6px;
   margin: 4px 4px 4px 4px;
 }
 
 //Text selection colors
 ::selection {
-  background: #DCCFC1; /* WebKit/Blink Browsers */
+  background: darken(#f1faee, 10%); /* WebKit/Blink Browsers */
 }
 ::-moz-selection {
-  background: #DCCFC1; /* Gecko Browsers */
+  background: darken(#f1faee, 10%); /* Gecko Browsers */
 }
 
 /* unvisited link */
 a:link {
-  color: #e63946;
+  color: darken(#e63946, 4%);
 }
 
 /* visited link */
 a:visited {
-  color: #6a040f;
+  color: darken(#a8dadc, 44%)
 }
 
 /* mouse over link */
 a:hover {
-  color: #f77f00;
+  color: darken(#e63946, 10%);
 }
 
 /* selected link */
