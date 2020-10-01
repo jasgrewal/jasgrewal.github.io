@@ -4,8 +4,8 @@
   position: fixed;
   text-align: center;
   width: 100%;
-  min-height: 450px;
-  padding: 0px 10px 30px;
+  min-height: 380px;
+  padding: 0px 10px 90px;
   z-index: 1;
   @include media-query($small-screen) {
     background-position: center;
@@ -19,7 +19,7 @@
 }
 .cover-card {
   color: $text-color;
-  padding: 0 0px;
+  padding: -200 0px;
   .avatar {
     border-radius: 2%;
     width: 100px;
