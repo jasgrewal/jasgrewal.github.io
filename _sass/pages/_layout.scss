@@ -19,9 +19,9 @@
 }
 .cover-card {
   color: $text-color;
-  padding: 0 30px;
+  padding: 0 10px;
   .avatar {
-    border-radius: 50%;
+    border-radius: 2%;
     width: 100px;
     height: 100px;
     float: none;
@@ -41,7 +41,7 @@
     margin: -1px auto 10px;
   }
   .author_bio {
-    font-size: 85%;
+    font-size: 90%;
     display: block;
   }
   @include media-query($medium-screen) {
