@@ -6,7 +6,7 @@ percentage: 100, 20, 60, 100
 
 label: Ability
 id : cs
-aspects: Python, R, Perl, Theano, Lasagne, Keras, PyTorch, HTML/CSS, C++
-percentage: 80, 90, 60, 40, 65, 90, 30, 20, 45
+aspects: Python, R, Perl, Rust, Theano, Lasagne, Keras, PyTorch, HTML/CSS, C++
+percentage: 100, 95, 60, 10, 50, 75, 95, 40, 30, 25
 
 
