@@ -16,9 +16,20 @@ google_analytics: UA-119233913-1
 #
 timezone:          Canada/Pacific
 markdown:          kramdown
+remote_theme: vg/minimal-mistakes
+
 highlighter:       rouge
 excerpt_separator: <!--more-->
 permalink:         /articles/:year-:month/:title
+
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-remote-theme
 
 kramdown:
   auto_ids: true
@@ -27,8 +38,9 @@ kramdown:
   toc_levels: 1..6
   enable_coderay: false
 
-gems:
-  - jekyll-last-modified-at
+#gems:
+#  - jekyll-last-modified-at
+
 #
 ###################################
 # Site Owner configuration
